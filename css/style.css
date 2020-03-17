@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter|Nunito+Sans&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Nunito Sans', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff
+}
+body{
+
+    background: linear-gradient(to right, #4e69e0,#764ba2);
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+header{
+    padding: 30px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bolder
+}
+.time h3{
+    font-size: 25px
+}
+.time{
+    /* border: 1px solid #000; */
+    padding: 10px;
+    padding-top: 0px;
+    font-size: 20px;
+    text-transform: uppercase
+}
+.time p {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 25px;
+    border-radius: 30px;
+    /* border: 1px solid #000; */
+    background: #fff;
+    color: #764ba2;
+    font-size: 22px;
+}
+.resultBox{
+    text-align: center;
+    /* border: 1px solid #000; */
+    margin: 0px 50px;
+    padding: 25px;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+    transition: .3s;
+    font-family: 'Source Code Pro', monospace;
+}
+.resDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center  
+}
+.resDetails .speed{
+    /* border: 1px solid #000; */
+    padding: 10px;
+    margin:0px 10px;
+}
+.resDetails .accuracy{
+    /* border: 1px solid #000; */
+    padding: 10px;
+    margin:0px 10px;
+}
+.resDetails .digit{
+    font-size: 60px
+}
+.resDetails .desc{
+    font-size: 19px;
+    font-weight: 60px;
+    text-transform: uppercase
+}
+.resultBox .result{
+    font-size: 27px
+}
+.resultBox p{
+    font-size: 25px;
+    transition: .3s;
+}
+#input{
+    width:80%;
+    margin: 20px;
+    font-size: 22px;
+    padding: 25px;
+    outline: none;
+    /* border: 1px solid #000; */
+    border:none;
+    background: #fff;
+    color: #000;
+    transition: .3s;
+    box-shadow: 5px 10px 10px #494949
+}
+.submitbtn{
+    font-size: 20px;
+    border:none;
+    outline:none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: #fff;
+    color: #764ba2;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 2px 7px 15px#494949;
+    margin: 20px;
+    cursor:pointer;
+}
